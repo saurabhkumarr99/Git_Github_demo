@@ -171,7 +171,7 @@ To practice upon Git Github
     git push -u origin dev1
    ```
   <p align="center">
-   <img src="./Screenshots/14.2-Push dev1.png" alt="Screenshot 1" width="300" />
+   <img src="./Screenshots/14.2-Push dev2.png" alt="Screenshot 1" width="300" />
   </p
 
 
@@ -181,7 +181,7 @@ To practice upon Git Github
     git push -u origin dev2
    ```
   <p align="center">
-   <img src="./Screenshots/14.2-Push dev2.png" alt="Screenshot 1" width="300" />
+   <img src="./Screenshots/14.2-Push dev1.png" alt="Screenshot 1" width="300" />
   </p
 
 ## Usage
