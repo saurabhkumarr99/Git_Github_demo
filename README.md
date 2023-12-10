@@ -63,6 +63,8 @@ To practice upon Git Github
 6.**Create and resolve merge conflict:**
 
  - `Create new branch dev2`
+
+
      ```bash
      git checkout -b dev2
      ``` 
@@ -91,12 +93,14 @@ To practice upon Git Github
  </p
 
   - `Update by dev1 branch`
+
+
      ```bash
       git checkout dev1
       git status
       git add .
       git commit -m "New line added by dev1"
-      git stataus
+      git status
      ```
    
  <p align="center">
@@ -104,6 +108,8 @@ To practice upon Git Github
  </p
 
    - `Merge conflict generated`
+
+
      ```bash
       git checkout master
       git merger dev1
@@ -114,6 +120,8 @@ To practice upon Git Github
  </p
 
 - `Resolved Merge conflict`
+
+
    ```bash
     git add .
     git commit -m "Resolved merge conflict"
@@ -124,13 +132,12 @@ To practice upon Git Github
   <img src="./Screenshots/10-Resolve merge conflict.png" alt="Screenshot 1" width="300" />
  </p
 
-7.
-**Create a Github Repository:**
+7.**Create a Github Repository:**
 
 - Github: [Git-Github-Demo](https://github.com/saurabhkumarr99/Git_Github_demo)
 
   <p align="center">
-   <img src="./Screenshots/10-Resolve merge conflict.png" alt="Screenshot 1" width="300" />
+   <img src="./Screenshots/11-Create Github Repo.png" alt="Screenshot 1" width="300" />
   </p
 
 - Add url
@@ -140,7 +147,8 @@ To practice upon Git Github
     git remote -v
    ```
   <p align="center">
-   <img src="./Screenshots/10-Resolve merge conflict.png" alt="Screenshot 1" width="300" />
+   <img src="./Screenshots/12-AddUrl.png" alt="Screenshot 1" width="300" />
+   <img src="./Screenshots/13-CheckURL.png" alt="Screenshot 1" width="300" />
   </p
 
 3. **Push project to Github Repository:**
@@ -153,7 +161,7 @@ To practice upon Git Github
     git push -u origin master
    ```
   <p align="center">
-   <img src="./Screenshots/10-Resolve merge conflict.png" alt="Screenshot 1" width="300" />
+   <img src="./Screenshots/14.1-Push Origin.png" alt="Screenshot 1" width="300" />
   </p
 
 
@@ -163,7 +171,7 @@ To practice upon Git Github
     git push -u origin dev1
    ```
   <p align="center">
-   <img src="./Screenshots/10-Resolve merge conflict.png" alt="Screenshot 1" width="300" />
+   <img src="./Screenshots/14.2-Push dev1.png" alt="Screenshot 1" width="300" />
   </p
 
 
@@ -173,7 +181,7 @@ To practice upon Git Github
     git push -u origin dev2
    ```
   <p align="center">
-   <img src="./Screenshots/10-Resolve merge conflict.png" alt="Screenshot 1" width="300" />
+   <img src="./Screenshots/14.2-Push dev2.png" alt="Screenshot 1" width="300" />
   </p
 
 ## Usage
