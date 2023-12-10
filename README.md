@@ -93,8 +93,6 @@ To practice upon Git Github
  </p
 
   - `Update by dev1 branch`
-
-
      ```bash
       git checkout dev1
       git status
@@ -108,8 +106,6 @@ To practice upon Git Github
  </p
 
    - `Merge conflict generated`
-
-
      ```bash
       git checkout master
       git merger dev1
