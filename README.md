@@ -116,8 +116,6 @@ To practice upon Git Github
  </p
 
 - `Resolved Merge conflict`
-
-
    ```bash
     git add .
     git commit -m "Resolved merge conflict"
